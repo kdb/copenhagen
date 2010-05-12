@@ -1,0 +1,33 @@
+name        = copenhagen
+description = copenhagen subtheme of dyname for copenhagen test 
+screenshot  = screenshot.png
+version     = dev 2.0
+core        = 6.x
+engine      = phptemplate
+base theme  = dynamo
+
+;--------------------- regions -----------------------------
+regions[account]        = account
+regions[search]         = search
+regions[header]         = header
+regions[left]           = left sidebar
+regions[right]          = right sidebar
+regions[footer]         = footer
+regions[footer_one]     = footer one
+regions[footer_two]     = footer two
+regions[footer_three]   = footer three
+regions[footer_four]    = footer four
+
+;--------------------- features ----------------------------
+;features[] = logo
+features[] = name
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = search
+features[] = favicon
+;features[] = slogan
+features[] = primary_links
+features[] = secondary_links
+
+;--------------------- styles ------------------------------
+stylesheets[all][]  = style/copenhagen.css

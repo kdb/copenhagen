@@ -1,0 +1,103 @@
+/* =====================================
+	dynamo.css
+	widgets and elements used throughout the site
+	------------------------------------
+	
+	------------------------------------
+	colors:
+	------------------------------------
+	blue:	 			#006A87
+	blue/gray:	#D1D9D7
+	black: 			#050505
+	gray:	 			#666666
+	red:	 			#B41630
+	red dark   	#790f21
+	------------------------------------
+	
+/** layout.css overrides **/
+
+body{background:#e5e5e5 url(../images/bg.png) repeat-x 0 0;}
+#container{background:transparent url(../images/bg-header.png) no-repeat center 0;}
+
+/* header */
+#pageheader{background:transparent url(../images/bg-header.png) no-repeat center -39px; margin:0 0 0 1px; }
+
+/* sitename */	
+#site-name { margin: 0px 17px 0 720px; padding:17px 0 0 0; height:22px;}
+	body.admin-menu #site-name {margin: 12px 17px 0 720px;}
+	#site-name a{height:24px; width:252px; background:transparent url(../images/logo.png) no-repeat 0 0;}
+	
+/*
+  Menu 
+--------------------------------------*/
+#navigation{ font-family: "Gill Sans",  sans-serif; }
+	#navigation li.first{margin:0 20px 0 0; padding: padding:0 0px 0 10px;}
+	#navigation li a { margin:0; padding:6px 10px 0 0; height:30px; }
+	#navigation li.active {background:url(../images/menu-left.png) no-repeat left top; }
+	#navigation li.active a{color:#eee; background: url(../images/menu-right.png) no-repeat right top; font-weight:normal;}
+	#navigation a {color:#fff;}
+	
+/*
+  search block
+--------------------------------------*/
+#ting-search-form{ background:transparent url(../images/search.png) no-repeat 0 0;}
+	#ting-search-form div.example {color: #eccdd3;}
+	#ting-search-form div.example li a {color: #eccdd3;}
+
+/*
+  Account block
+--------------------------------------*/
+/*login form*/
+	#user-login-form{ background:transparent url(../images/logind.png) no-repeat 0 0; }
+	
+	
+/** typography.css overrides **/
+a, a:link, a:visited, a:active {text-decoration: none; color:#006a87;}
+.subject a{color:#fff; background-color: #b41630; }
+.meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;} /*999*/
+.author a,.author a:link,.author a:visited,.author a:active {color:#006a87;}
+
+/** dynamo.css overrides **/
+
+ul.pager li a{color:#006A87;}
+#account #edit-remember-me-wrapper label {color: #000;}
+
+/*-- search  --*/
+#pager a,#pager  a:link, #pager a:active {color:#006A87;}
+ 
+.view-user-comments-list .subject a,
+.view-user-comments-list .subject a:link,
+.view-user-comments-list .subject a:visited, 
+.view-user-comments-list .subject a:active{
+  color:#006a87;
+}
+
+#ting-facet-browser li li {color: #006a87;}
+
+
+/** ting.css overrides **/
+
+/*
+  recommendations - others did loan ...
+------------------------------------*/	
+.pane-recommendation_list ul.ting-recommendation li a{color:#006A87;}
+
+#periodical-issue-list .year h3 { color: #006a87; }
+
+#periodical-issue-list a { color: #006a87; }
+
+
+/** biblo.css overrides **/
+
+/* =======================================
+	pages
+/* ------------------------------------- */
+
+ul.menu li.leaf > a.active, ul.menu li > a.active,
+li.active-trail > a
+{color:#006A87;}
+
+/** developer.css overrides **/
+.pane-alma_user_reservations_details .update-controls-button .edit-remove #edit-remove {
+  color: #006A87;
+} 
