@@ -42,7 +42,7 @@ body{background:#e5e5e5 url(../images/bg.png) repeat-x 0 0;}
 --------------------------------------*/
 #ting-search-form{ background:transparent url(../images/search.png) no-repeat 0 0;}
 	#ting-search-form div.example {color: #eccdd3;}
-	#ting-search-form div.example li a {color: #eccdd3;}
+	#ting-search-form div.example a {color: #eccdd3;}	
 
 /*
   Account block
