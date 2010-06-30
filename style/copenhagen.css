@@ -100,4 +100,24 @@ li.active-trail > a
 /** developer.css overrides **/
 .pane-alma_user_reservations_details .update-controls-button .edit-remove #edit-remove {
   color: #006A87;
-} 
+}
+
+/** Feedback tab **/
+a#ding-feedback-tab {
+  background-color: #222;
+  background-image: url(../images/feedback_trans_tab.png);
+  color: white;
+  cursor: pointer;
+  height: 102px;
+  left: auto;
+  margin-left: auto;
+  margin-right: 0px;
+  overflow: ;
+  position: fixed;
+  right: 0px;
+  text-indent: -100000px;
+  top: 25%;
+  width: 35px;
+  z-index: 100000;
+}
+

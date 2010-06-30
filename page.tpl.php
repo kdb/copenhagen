@@ -41,7 +41,6 @@
     <div id="page" class="minheight">
       <div id="page-inner" class="clearfix">
 
-
         <<?php print $site_name_element; ?> id="site-name">
           <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
             <?php print $site_name; ?>
@@ -145,6 +144,11 @@
 
 </div>
 
+<?php print l(t('Feedback'), 'feedback', array(
+  'attributes' => array('id' => 'ding-feedback-tab'),
+)); ?>
+
 <?php print $closure; ?>
 </body>
 </html>
+
