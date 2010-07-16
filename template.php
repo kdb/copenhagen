@@ -36,3 +36,24 @@ function copenhagen_ting_search_form($form){
 
 	return drupal_render($form);	
 }
+
+/**
+ * Override from module to collapse groups of loans which are not overdue into one.
+ */
+function copenhagen_alma_user_forms_loan_details($form) {
+  //Make sure we have somewhere to place our loans
+	if (!isset($form['loan_data']['#grouped']['due'])) {
+    $form['loan_data']['#grouped']['due'] = array();
+  }
+	foreach ($form['loan_data']['#grouped'] as $date => $group) {
+		if (!in_array($date, array('overdue', 'due'))) {
+			//Merge date group contents into due groupe
+			$form['loan_data']['#grouped']['due'] += $group;
+			
+			//Remove date group
+			unset($form['loan_data']['#grouped'][$date]);
+		}
+  }
+  
+  return theme_alma_user_forms_loan_details($form);
+}
