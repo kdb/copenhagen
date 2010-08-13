@@ -1,7 +1,6 @@
 name        = copenhagen
 description = copenhagen subtheme of dyname for copenhagen test 
 screenshot  = screenshot.png
-version     = dev 2.0
 core        = 6.x
 engine      = phptemplate
 base theme  = dynamo
