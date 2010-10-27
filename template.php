@@ -32,8 +32,11 @@ function copenhagen_ting_search_form($form){
 	$form['submit']['#attributes']['class'] 	= "";
 	
 	
-	$form['example_text']['#value'] = '<div class="example"><p>'.l(t('Feltsøgning'), 'https://biblioteksbase.kk.dk/sites/XWW/pub/search.html?doaction=&data=advanced=true', array('absolute' => true)).'</p></div>';
-
+	$form['example_text']['#value'] = '<div class="example">'. theme('item_list', array(
+      l(t('Feltsøgning'), 'https://biblioteksbase.kk.dk/sites/XWW/pub/search.html?doaction=&data=advanced=true', array('absolute' => true)),
+      l(t('Sådan bruger du hjemmesiden'), 'vejledning'),
+    )).'</div>';
+ 
 	return drupal_render($form);	
 }
 
