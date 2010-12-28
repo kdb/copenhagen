@@ -43,7 +43,7 @@ function copenhagen_ting_search_form($form){
 /**
  * Override from module to collapse groups of loans which are not overdue into one.
  */
-function copenhagen_alma_user_forms_loan_details($form) {
+function copenhagen_ding_library_user_loan_list_form($form) {
   //Make sure we have somewhere to place our loans
 	if (!isset($form['loan_data']['#grouped']['due'])) {
     $form['loan_data']['#grouped']['due'] = array();
@@ -57,6 +57,5 @@ function copenhagen_alma_user_forms_loan_details($form) {
 			unset($form['loan_data']['#grouped'][$date]);
 		}
   }
-  
-  return theme_alma_user_forms_loan_details($form);
+  return theme_ding_library_user_loan_list_form($form);
 }
