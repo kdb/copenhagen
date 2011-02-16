@@ -123,3 +123,17 @@ a#ding-feedback-tab {
   z-index: 100000;
 }
 
+/** Styling for jQuery UI dialogs **/
+.ui-dialog {
+  border-color: #B41630;
+  -moz-box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.3);
+  -o-box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.3);
+  box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.ui-dialog .ui-dialog-title {
+  color: black;
+  font-size: 18px;
+}
+
