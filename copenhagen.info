@@ -1,5 +1,5 @@
-name        = copenhagen
-description = copenhagen subtheme of dyname for copenhagen test 
+name        = Copenhagen
+description = Subtheme of Dynamo for Copenhagen public libraries.
 screenshot  = screenshot.png
 core        = 6.x
 engine      = phptemplate
