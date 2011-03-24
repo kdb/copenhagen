@@ -30,3 +30,5 @@ features[] = secondary_links
 
 ;--------------------- styles ------------------------------
 stylesheets[all][]  = style/copenhagen.css
+stylesheets[print][]  = css/print.css
+

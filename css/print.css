@@ -1,0 +1,10 @@
+#pageheader,
+#pagefooter,
+.pane-relevant_campaigns {
+  display: none;
+}
+
+#content,
+#content div {
+  float: none !important;
+}
