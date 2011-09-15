@@ -95,9 +95,22 @@ ul.pager li a{color:#006A87;}
   pages
 /* ------------------------------------- */
 
-ul.menu li.leaf > a.active, ul.menu li > a.active,
+ul.menu li.leaf > a.active, 
+ul.menu li > a.active,
 li.active-trail > a
 {color:#006A87;}
+
+/* Frontpage event list */
+#event-list li div.info h4 a { font-size: 13px; line-height: 15px; font-weight: normal; } 
+#event-list li .info .subject a { color: #FFF; background-color: #959595; }
+#event-list li .today .info .subject a { background-color: #B41630; }
+#event-list li .target-group { text-transform: uppercase; }
+
+#event-list li .meta { clear: both; }
+#event-list li .meta a,
+#event-list li .meta span { color: #666; }
+#event-list li .meta .time { font-size: 100%; line-height: inherit; font-weight: normal; }
+
 
 /** developer.css overrides **/
 .pane-alma_user_reservations_details .update-controls-button .edit-remove #edit-remove {
