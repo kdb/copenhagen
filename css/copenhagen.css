@@ -150,3 +150,11 @@ a#ding-feedback-tab {
   font-size: 18px;
 }
 
+/* Ding tabroll */
+#featured { width: 680px; background-color: transparent; overflow: hidden; }
+#featured ul.ui-tabs-nav { width: 220px; left: 460px; border: 0 none; font-family: inherit; }
+#featured ul.ui-tabs-nav li { border: 0 none; border-right: 0 none; }
+#featured ul.ui-tabs-nav li.ui-tabs-selected { margin-left: -12px; padding-left: 12px; background: transparent url(../images/tab-active.png) left top no-repeat; }
+#featured ul.ui-tabs-nav li.ui-tabs-selected a { background: #B41630; }
+#featured li.ui-tabs-nav-item a { width: 195px; height: 42px; padding-right: 5px; background: #810e21; border-bottom: 1px solid #d11a38; font-weight: normal; }
+#featured li.count-4 a { border-bottom: 0 none; }
