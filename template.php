@@ -59,3 +59,12 @@ function copenhagen_ding_library_user_loan_list_form($form) {
   return theme_ding_library_user_loan_list_form($form);
 }
 
+/**
+ * Preprocess variables for the block templates.
+ */
+function copenhagen_preprocess_block(&$variables) {
+  if ($variables['id_block'] == 'block-ding-library-user-account') {
+    $variables['classes'] .= ' clear-block';
+  }
+}
+

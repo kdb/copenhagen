@@ -7,7 +7,7 @@
  * ------------------------------------
  * colors:
  * ------------------------------------
- * blue:        #006A87
+ * blue:       #006A87
  * blue/gray:  #D1D9D7
  * black:      #050505
  * gray:       #666666
@@ -63,6 +63,10 @@ a, a:link, a:visited, a:active {text-decoration: none; color:#006a87;}
 
 ul.pager li a{color:#006A87;}
 #account #edit-remember-me-wrapper label {color: #000;}
+
+#block-ding-wayf {
+  clear: left;
+}
 
 /*-- search  --*/
 #pager a,#pager  a:link, #pager a:active {color:#006A87;}
