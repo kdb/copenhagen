@@ -162,3 +162,21 @@ a#ding-feedback-tab {
 #featured ul.ui-tabs-nav li.ui-tabs-selected a { background: #B41630; }
 #featured li.ui-tabs-nav-item a { width: 195px; height: 42px; padding-right: 5px; background: #4E4E4E; border-bottom: 1px solid #959595; font-weight: normal; }
 #featured li.count-4 a { border-bottom: 0 none; }
+
+/** Ding eresource **/
+
+.node-eresource .field-teaser,
+.node-eresource .field-ding-eresource-availabilit {
+  margin-bottom: 1em;
+}
+
+.node-eresource .field-link,
+.node-eresource .field-ding-eresource-availabilit {
+  font-weight: bold;
+}
+
+.node-eresource .field-link span,
+.node-eresource .field-ding-eresource-availabilit span {
+  font-weight: normal;
+}
+
