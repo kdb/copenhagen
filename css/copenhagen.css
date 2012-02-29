@@ -186,3 +186,7 @@ a#ding-feedback-tab {
   clear: left;
 }
 
+#ding-reservation-list-form #edit-remove {
+  color: #B41630;
+}
+
