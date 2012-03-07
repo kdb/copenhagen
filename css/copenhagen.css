@@ -190,3 +190,22 @@ a#ding-feedback-tab {
   color: #B41630;
 }
 
+/** Promoted FAQ list (for the front page) **/
+.pane-faq_question_list-panel_pane_2 h3 {
+  background-color: #d1d9d7;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 8px;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.pane-faq_question_list-panel_pane_2 ul {
+  margin-left: 1.5em;
+}
+
+.pane-faq_question_list-panel_pane_2 li {
+  font-size: 11px;
+  list-style-type: circle;
+}
+
