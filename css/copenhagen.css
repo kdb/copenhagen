@@ -209,9 +209,3 @@ a#ding-feedback-tab {
   list-style-type: circle;
 }
 
-/** Ding library hours department selector **/
-.ding-library-hours-department-selector {
-  clear: right;
-  float: right;
-  margin: 0.5em 1em 0 0;
-}
