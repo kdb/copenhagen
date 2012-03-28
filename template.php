@@ -69,3 +69,12 @@ function copenhagen_preprocess_block(&$variables) {
     $variables['classes'] .= ' clear-block';
   }
 }
+
+/**
+ * Preprocess variables for the node templates.
+ */
+function copenhagen_preprocess_node(&$variables) {
+  if ($variables['type'] == 'profile') {
+    $variables['author'] = user_load($variables['uid']);
+  }
+}
