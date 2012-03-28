@@ -21,7 +21,7 @@
       <dd class="section-end"><?php echo $field_staff_title[0]['view']; ?></dd>
 
       <?php if (!empty($author->mail)): ?>
-      <dt>E-mail</dt>
+      <dt>E-mail:</dt>
       <dd><?php echo l($author->mail, 'mailto:' . $author->mail); ?></dd>
       <?php endif; ?>
 
