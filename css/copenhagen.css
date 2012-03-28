@@ -236,3 +236,14 @@ a#ding-feedback-tab {
   float: left;
   margin-bottom: 0.4em;
 }
+
+/** Restore lists to standard styling within the tema site description. **/
+.field-tema-description ul {
+  margin-left: 1.0em;
+  margin-top: 0.5em;
+}
+
+.field-tema-description ul li {
+  list-style-type: disc;
+  margin-bottom: 0.5em;
+}
