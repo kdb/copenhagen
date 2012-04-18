@@ -211,8 +211,10 @@ a#ding-feedback-tab {
 }
 
 .pane-faq_question_list-panel_pane_2 li {
+  background-image: none;
   font-size: 11px;
   list-style-type: circle;
+  padding: 0;
 }
 
 /** Staff profile page **/
