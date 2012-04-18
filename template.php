@@ -62,6 +62,18 @@ function copenhagen_ding_library_user_loan_list_form($form) {
 }
 
 /**
+ * Preprocess variables for the page template.
+ */
+function copenhagen_preprocess_page(&$variables) {
+  $variables['navigation_en_flag'] = l(theme('image',
+    $variables['directory'] . '/images/flag-gb.png', 'Information in English'), 'english', array(
+      'attributes' => array('class' => 'navigation-en-flag'),
+      'html' => TRUE,
+  ));
+}
+
+
+/**
  * Preprocess variables for the block templates.
  */
 function copenhagen_preprocess_block(&$variables) {

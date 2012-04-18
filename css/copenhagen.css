@@ -32,6 +32,12 @@ body{background:#e5e5e5 url(../images/bg.png) repeat-x 0 0;}
   Menu
 --------------------------------------*/
 #navigation{ font-family: "Gill Sans",  sans-serif; }
+  #navigation .navigation-en-flag {
+    border: none;
+    float: right;
+    margin-top: 7px;
+  }
+
   #navigation li.first{margin:0 20px 0 0; padding: padding:0 0px 0 10px;}
   #navigation li a { margin:0; padding:6px 10px 0 0; height:30px; }
   #navigation li.active {background:url(../images/menu-left.png) no-repeat left top; padding-left: 10px; margin-left: 10px; }

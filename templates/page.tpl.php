@@ -57,6 +57,7 @@
 
             <div id="navigation">
               <div id="navigation-inner">
+                <?php echo $navigation_en_flag; ?>
                 <?php if ($primary_links): ?>
                   <?php print theme('links', $primary_links); ?>
                 <?php endif; ?>
