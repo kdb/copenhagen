@@ -1,9 +1,7 @@
 <?php
-// $Id$
-
 /**
- * @file page.tpl.php
- * Main page template file for the dynamo theme.
+ * @file
+ * Main page template file for the Copenhagen theme.
  */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -49,7 +47,7 @@
 
         <div id="pageheader">
           <div id="pageheader-inner">
-            
+
             <div id="top" class="clearfix">
 
               <div id="search" class="left">
@@ -58,7 +56,7 @@
 
               <div id="account" class="left">
                 <?php print $account; ?>
-              </div>  
+              </div>
 
             </div>
 
@@ -73,7 +71,7 @@
             <?php print $breadcrumb; ?>
           </div>
         </div>
-        
+
         <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
 
@@ -96,7 +94,7 @@
                 <div id="content-main">
                   <?php print $content; ?>
                 </div>
-                
+
                 <?php
                   if (arg(0) != 'user'  && $tabs){
                     print '<div class="tabs">' . $tabs . '</div>';
@@ -128,14 +126,14 @@
             </div>
 
             <div class="left">
-              <?php print $footer_three; ?>             
+              <?php print $footer_three; ?>
             </div>
 
             <div class="left">
-              <?php print $footer_four; ?>              
+              <?php print $footer_four; ?>
               <?php print $footer; ?>
             </div>
-      
+
           </div>
         </div>
 
