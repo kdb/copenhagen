@@ -207,7 +207,7 @@ a#ding-feedback-tab {
 }
 
 .pane-faq_question_list-panel_pane_2 ul {
-  margin-left: 1.5em;
+  margin: 0.5em 0 0.5em 1.5em;
 }
 
 .pane-faq_question_list-panel_pane_2 li {
