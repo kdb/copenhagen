@@ -18,7 +18,7 @@
 </head>
 <body class="<?php print $body_classes; ?>">
 
-<?php if ($help OR $messages) { ?>
+<?php if ($help || $messages): ?>
   <div id="drupal-messages">
     <div id="messages-hide">
       <a href="#"><?php print t('hide'); ?></a>
@@ -26,9 +26,8 @@
 
     <?php print $help ?>
     <?php print $messages ?>
-
-    </div>
-<?php } ?>
+  </div>
+<?php endif; ?>
 
 <div id="container" class="clearfix">
 
@@ -58,9 +57,9 @@
 
             <div id="navigation">
               <div id="navigation-inner">
-                <?php if ($primary_links){ ?>
+                <?php if ($primary_links): ?>
                   <?php print theme('links', $primary_links); ?>
-                <?php } ?>
+                <?php endif; ?>
               </div>
             </div>
 
@@ -71,41 +70,39 @@
         <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
 
-            <?php if ($left) { ?>
+            <?php if ($left): ?>
               <div id="content-left">
                 <?php print $left; ?>
               </div>
-            <?php } ?>
+            <?php endif; ?>
 
             <div id="content">
               <div id="content-inner">
 
                 <?php
-                  /*if were in the user pages add the tabs in the top*/
-                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
+                  // If were in the user pages add the tabs in the top.
+                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs):
                     print '<div class="tabs-user">' . $tabs . '</div>';
-                  }
+                  endif;
                 ?>
 
                 <div id="content-main">
                   <?php print $content; ?>
                 </div>
 
-                <?php
-                  if (arg(0) != 'user'  && $tabs){
-                    print '<div class="tabs">' . $tabs . '</div>';
-                  }
-                ?>
+                <?php if (arg(0) != 'user'  && $tabs):
+                  print '<div class="tabs">' . $tabs . '</div>';
+                endif; ?>
 
 
               </div>
             </div>
 
-            <?php if ($right) { ?>
+            <?php if ($right): ?>
               <div id="content-right">
                 <?php print $right; ?>
               </div>
-            <?php } ?>
+            <?php endif; ?>
 
           </div>
         </div>
@@ -145,4 +142,3 @@
 <?php print $closure; ?>
 </body>
 </html>
-
