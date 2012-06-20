@@ -255,3 +255,9 @@ a#ding-feedback-tab {
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
+
+/** Highlight the active eresource category **/
+#eresource-page .tab-navigation a.active {
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #ccc;
+}
