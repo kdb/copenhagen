@@ -246,15 +246,36 @@ a#ding-feedback-tab {
 }
 
 /** Restore lists to standard styling within the tema site description. **/
-.field-tema-description ul {
-  margin-left: 1.0em;
-  margin-top: 0.5em;
+.field-tema-description ul,
+.ding-node .content ul,
+.node-eresource .info ul,
+.node-faq_question .info ul {
+  margin: 0.5em 0;
 }
 
-.field-tema-description ul li {
-  list-style-type: disc;
-  margin-bottom: 0.5em;
+.field-tema-description ul li,
+.ding-node .content ul li,
+.node-eresource .info ul li,
+.node-faq_question .info ul li {
+  list-style: disc outside url();
+  margin: 0 0 0.5em 2em;
+  padding: 0;
 }
+
+.field-tema-description ol,
+.ding-node .content ol,
+.ding-node ol {
+  margin: 0 0 0.5em 2.5em;
+  padding: 0;
+}
+
+.field-tema-description ol li,
+.ding-node .content ol li,
+.ding-node ol li  {
+  list-style: decimal outside;
+  margin: 0 0 0.5em 0;
+}
+
 
 /** Highlight the active eresource category **/
 #eresource-page .tab-navigation a.active {
