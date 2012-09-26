@@ -356,7 +356,8 @@ a#ding-feedback-tab {
 
 /** Promoted FAQ list (for the front page) **/
 .pane-faq_question_list-panel_pane_2 h3 {
-  background-color: #d1d9d7;
+  background-color: #B41630;
+  color: white;
   font-size: 12px;
   font-weight: normal;
   margin-top: 8px;
@@ -365,14 +366,22 @@ a#ding-feedback-tab {
 }
 
 .pane-faq_question_list-panel_pane_2 ul {
-  margin: 0.5em 0 0.5em 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 .pane-faq_question_list-panel_pane_2 li {
   background-image: none;
+  border-bottom: 1px solid #aaa;
   font-size: 11px;
-  list-style-type: circle;
+  list-style-type: none;
   padding: 0;
+}
+
+.pane-faq_question_list-panel_pane_2 li .title {
+  border-left: 3px solid #B41630;
+  margin: 0.25em 0;
+  padding-left: 1em;
 }
 
 /** Staff profile page **/
