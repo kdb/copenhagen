@@ -17,74 +17,161 @@
 
 /** layout.css overrides **/
 
-body{background:#e5e5e5 url(../images/bg.png) repeat-x 0 0;}
-#container{background:transparent url(../images/bg-header.png) no-repeat center 0;}
+body {
+  background: #e5e5e5 url(../images/bg.png) repeat-x 0 0;
+}
+
+#container {
+  background: transparent url(../images/bg-header.png) no-repeat center 0;
+}
+
 
 /* header */
-#pageheader{background:transparent url(../images/bg-header.png) no-repeat center -39px; margin:0 0 0 1px; }
+#pageheader {
+  background: transparent url(../images/bg-header.png) no-repeat center -39px;
+  margin: 0 0 0 1px;
+}
+
 
 /* sitename */
-#site-name { margin: 0px 17px 0 720px; padding:17px 0 0 0; height:22px;}
-  body.admin-menu #site-name {margin: 12px 17px 0 720px;}
-  #site-name a{height:24px; width:252px; background:transparent url(../images/logo.png) no-repeat 0 0;}
+#site-name {
+  margin: 0px 17px 0 720px;
+  padding: 17px 0 0 0;
+  height: 22px;
+}
+
+body.admin-menu #site-name {
+  margin: 12px 17px 0 720px;
+}
+
+#site-name a {
+  height: 24px;
+  width: 252px;
+  background: transparent url(../images/logo.png) no-repeat 0 0;
+}
+
 
 /*
   Menu
 --------------------------------------*/
-#navigation{ font-family: "Gill Sans",  sans-serif; }
-  #navigation .navigation-en-flag {
+#navigation {
+  font-family: "Gill Sans",  sans-serif;
+}
+
+#navigation .navigation-en-flag {
     border: none;
     float: right;
     margin-top: 7px;
   }
 
-  #navigation li.first{margin:0 20px 0 0; padding: padding:0 0px 0 10px;}
-  #navigation li a { margin:0; padding:6px 10px 0 0; height:30px; }
-  #navigation li.active {background:url(../images/menu-left.png) no-repeat left top; padding-left: 10px; margin-left: 10px; }
-  #navigation li.active a{color:#eee; background: url(../images/menu-right.png) no-repeat right top; font-weight:normal;}
-  #navigation a {color:#fff;}
+#navigation li.first {
+  margin: 0 20px 0 0;
+  padding: 0 0px 0 10px;
+}
+
+#navigation li a {
+  margin: 0;
+  padding: 6px 10px 0 0;
+  height: 30px;
+}
+
+#navigation li.active {
+  background: url(../images/menu-left.png) no-repeat left top;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#navigation li.active a {
+  color: #eee;
+  background: url(../images/menu-right.png) no-repeat right top;
+  font-weight: normal;
+}
+
+#navigation a {
+  color: #fff;
+}
+
 
 /*
   search block
 --------------------------------------*/
-#ting-search-form{ background:transparent url(../images/search.png) no-repeat 0 0;}
-  #ting-search-form div.example li {margin: 0 2em 0 0;}
-  #ting-search-form div.example,
-  #ting-search-form div.example a {color: #eccdd3;}
+#ting-search-form {
+  background: transparent url(../images/search.png) no-repeat 0 0;
+}
+
+#ting-search-form div.example li {
+  margin: 0 2em 0 0;
+}
+
+#ting-search-form div.example,
+#ting-search-form div.example a {
+  color: #eccdd3;
+}
+
 
 /*
   Account block
 --------------------------------------*/
 /*login form*/
-  #user-login-form{ background:transparent url(../images/logind.png) no-repeat 0 0; }
+#user-login-form {
+  background: transparent url(../images/logind.png) no-repeat 0 0;
+}
+
 
 
 /** typography.css overrides **/
-a, a:link, a:visited, a:active {text-decoration: none; color:#006a87;}
-.subject a{color:#fff; background-color: #b41630; }
-.meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;} /*999*/
-.author a,.author a:link,.author a:visited,.author a:active {color:#006a87;}
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #006a87;
+}
+
+.subject a {
+  color: #fff;
+  background-color: #b41630;
+}
+
+.meta a, .meta a:link, .meta a:visited, .meta a:active {
+  color: #006a87;
+}
+
+ /*999*/
+.author a, .author a:link, .author a:visited, .author a:active {
+  color: #006a87;
+}
+
 
 /** dynamo.css overrides **/
 
-ul.pager li a{color:#006A87;}
-#account #edit-remember-me-wrapper label {color: #000;}
+ul.pager li a {
+  color: #006A87;
+}
+
+#account #edit-remember-me-wrapper label {
+  color: #000;
+}
+
 
 #block-ding-wayf {
   clear: left;
 }
 
 /*-- search  --*/
-#pager a,#pager  a:link, #pager a:active {color:#006A87;}
+#pager a, #pager a:link, #pager a:active {
+  color: #006A87;
+}
+
 
 .view-user-comments-list .subject a,
 .view-user-comments-list .subject a:link,
 .view-user-comments-list .subject a:visited,
 .view-user-comments-list .subject a:active{
-  color:#006a87;
+  color: #006a87;
 }
 
-#ting-facet-browser li li {color: #006a87;}
+#ting-facet-browser li li {
+  color: #006a87;
+}
+
 
 
 /** ting.css overrides **/
@@ -92,11 +179,20 @@ ul.pager li a{color:#006A87;}
 /*
   recommendations - others did loan ...
 ------------------------------------*/
-.pane-recommendation_list ul.ting-recommendation li a{color:#006A87;}
+.pane-recommendation_list ul.ting-recommendation li a {
+  color: #006A87;
+}
 
-#periodical-issue-list .year h3 { color: #006a87; }
 
-#periodical-issue-list a { color: #006a87; }
+#periodical-issue-list .year h3 {
+  color: #006a87;
+}
+
+
+#periodical-issue-list a {
+  color: #006a87;
+}
+
 
 
 /** biblo.css overrides **/
@@ -105,21 +201,49 @@ ul.pager li a{color:#006A87;}
   pages
 /* ------------------------------------- */
 
-ul.menu li.leaf > a.active, 
+ul.menu li.leaf > a.active,
 ul.menu li > a.active,
-li.active-trail > a
-{color:#006A87;}
+li.active-trail > a {
+  color: #006A87;
+}
+
 
 /* Frontpage event list */
-#event-list li div.info h4 a { font-size: 13px; line-height: 15px; font-weight: normal; } 
-#event-list li .info .subject a { color: #FFF; background-color: #959595; }
-#event-list li .today .info .subject a { background-color: #959595; }
-#event-list li .target-group { text-transform: uppercase; }
+#event-list li div.info h4 a {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: normal;
+}
 
-#event-list li .meta { clear: both; }
+#event-list li .info .subject a {
+  color: #FFF;
+  background-color: #959595;
+}
+
+#event-list li .today .info .subject a {
+  background-color: #959595;
+}
+
+#event-list li .target-group {
+  text-transform: uppercase;
+}
+
+
+#event-list li .meta {
+  clear: both;
+}
+
 #event-list li .meta a,
-#event-list li .meta span { color: #666; }
-#event-list li .meta .time { font-size: 100%; line-height: inherit; font-weight: normal; }
+#event-list li .meta span {
+  color: #666;
+}
+
+#event-list li .meta .time {
+  font-size: 100%;
+  line-height: inherit;
+  font-weight: normal;
+}
+
 
 
 /** developer.css overrides **/
@@ -137,7 +261,7 @@ a#ding-feedback-tab {
   left: auto;
   margin-left: auto;
   margin-right: 0px;
-  overflow: ;
+  overflow: hidden;
   position: fixed;
   right: 0px;
   text-indent: -100000px;
@@ -161,13 +285,47 @@ a#ding-feedback-tab {
 }
 
 /* Ding tabroll */
-#featured { width: 680px; background-color: transparent; overflow: hidden; }
-#featured ul.ui-tabs-nav { width: 220px; left: 460px; border: 0 none; font-family: inherit; }
-#featured ul.ui-tabs-nav li { border: 0 none; border-right: 0 none; }
-#featured ul.ui-tabs-nav li.ui-tabs-selected { margin-left: -12px; padding-left: 12px; background: transparent url(../images/tab-active.png) left top no-repeat;  }
-#featured ul.ui-tabs-nav li.ui-tabs-selected a { background: #B41630; }
-#featured li.ui-tabs-nav-item a { width: 195px; height: 42px; padding-right: 5px; background: #4E4E4E; border-bottom: 1px solid #959595; font-weight: normal; }
-#featured li.count-4 a { border-bottom: 0 none; }
+#featured {
+  width: 680px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+#featured ul.ui-tabs-nav {
+  width: 220px;
+  left: 460px;
+  border: 0 none;
+  font-family: inherit;
+}
+
+#featured ul.ui-tabs-nav li {
+  border: 0 none;
+  border-right: 0 none;
+}
+
+#featured ul.ui-tabs-nav li.ui-tabs-selected {
+  margin-left: -12px;
+  padding-left: 12px;
+  background: transparent url(../images/tab-active.png) left top no-repeat;
+}
+
+#featured ul.ui-tabs-nav li.ui-tabs-selected a {
+  background: #B41630;
+}
+
+#featured li.ui-tabs-nav-item a {
+  width: 195px;
+  height: 42px;
+  padding-right: 5px;
+  background: #4E4E4E;
+  border-bottom: 1px solid #959595;
+  font-weight: normal;
+}
+
+#featured li.count-4 a {
+  border-bottom: 0 none;
+}
+
 
 /** Ding eresource **/
 
