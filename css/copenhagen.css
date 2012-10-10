@@ -372,16 +372,11 @@ a#ding-feedback-tab {
 
 .pane-faq_question_list-panel_pane_2 li {
   background-image: none;
-  border-bottom: 1px solid #aaa;
   font-size: 11px;
-  list-style-type: none;
+  list-style-image: url(../images/menu-collapsed.png);
+  list-style-type: circle;
+  margin: 0 0 0 1.2em;
   padding: 0;
-}
-
-.pane-faq_question_list-panel_pane_2 li .title {
-  border-left: 3px solid #B41630;
-  margin: 0.25em 0;
-  padding-left: 1em;
 }
 
 /** Staff profile page **/
