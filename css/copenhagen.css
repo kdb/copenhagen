@@ -62,11 +62,20 @@ body.admin-menu #site-name {
     border: none;
     float: right;
     margin-top: 7px;
-  }
+}
+
+#navigation li {
+  float: left; 
+  height: 30px; 
+  list-style: none; 
+  margin: 0 10px;
+  padding: 0 0 0 10px;
+  position: relative;
+}
 
 #navigation li.first {
-  margin: 0 20px 0 0;
-  padding: 0 0px 0 10px;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 10px;
 }
 
 #navigation li a {
@@ -175,6 +184,14 @@ ul.pager li a {
 
 
 /** ting.css overrides **/
+
+/* More spacspace around content inline images */
+.node .content img {
+  background: #eee;
+  color: #aaa;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
 
 /*
   recommendations - others did loan ...
