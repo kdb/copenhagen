@@ -314,6 +314,13 @@ a#ding-feedback-tab {
   font-family: inherit;
 }
 
+#featured ul.ui-tabs-nav a:hover {
+  background-color: #777;
+  /* We have to use !important to remove the underline, since it's
+   * defined with !important in dynamo's typography.css */
+  text-decoration: none !important;
+}
+
 #featured ul.ui-tabs-nav li {
   border: 0 none;
   border-right: 0 none;
