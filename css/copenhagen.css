@@ -261,8 +261,6 @@ li.active-trail > a {
   font-weight: normal;
 }
 
-
-
 /** developer.css overrides **/
 .pane-alma_user_reservations_details .update-controls-button .edit-remove #edit-remove {
   color: #006A87;
@@ -427,6 +425,7 @@ a#ding-feedback-tab {
 /** Restore lists to standard styling within the tema site description. **/
 .field-tema-description ul,
 .ding-node .content ul,
+.pane-node_body_titleul,
 .node-eresource .info ul,
 .node-faq_question .info ul {
   margin: 0.5em 0;
@@ -434,6 +433,7 @@ a#ding-feedback-tab {
 
 .field-tema-description ul li,
 .ding-node .content ul li,
+.pane-node_body_title ul li,
 .node-eresource .info ul li,
 .node-faq_question .info ul li {
   list-style: disc outside url();
@@ -443,6 +443,7 @@ a#ding-feedback-tab {
 
 .field-tema-description ol,
 .ding-node .content ol,
+.pane-node_body_title ol,
 .ding-node ol {
   margin: 0 0 0.5em 2.5em;
   padding: 0;
@@ -450,6 +451,7 @@ a#ding-feedback-tab {
 
 .field-tema-description ol li,
 .ding-node .content ol li,
+.pane-node_body_title ol li,
 .ding-node ol li  {
   list-style: decimal outside;
   margin: 0 0 0.5em 0;
