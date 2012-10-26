@@ -1,0 +1,56 @@
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/images";
+@import "compass/css3/text-shadow";
+
+#page .ting-item .buttons, 
+#page .ting-overview .buttons {
+  li {
+    background-image: none;
+    padding: 0;
+  }
+
+  // Generic (orange) button.
+  a {
+    background-color: #fe671b;
+    background-image: none;
+    display: block;
+    font-size: 11px;
+    margin: 10px 10px 0 0;
+    padding: 7px 10px;
+    @include background(linear-gradient(top, #ffbf3e, #fe671b));
+    @include border-radius(3px);
+    @include single-box-shadow(rgba(black, 0.5), 0, 1px, 2px);
+    @include single-text-shadow(rbga(black, 0.5), 1px, 1px);
+
+    &:hover {
+      background-color: lighten(#fe671b, 10%);
+      background-image: none;
+      background-position: 0% 0%;
+      color: darken(#fe671b, 20%);
+      @include background(linear-gradient(top, lighten(#ffbf3e, 5%), lighten(#fe671b, 10%)));
+      // typography defines underlines with !important, so we need to
+      // override it the same way :/
+      text-decoration: none !important;
+    }
+  }
+
+  // Cart button (green).
+  .add-to-cart a {
+    background-color: lighten(#26a83d, 10%);
+    background-position: 0% 0%;
+    @include background(linear-gradient(top, #93db6c, #26a83d));
+
+    &:hover {
+      background-image: none;
+      background-position: 0% 0%;
+      color: darken(#26a83d, 20%);
+      @include background(linear-gradient(top, lighten(#93db6c, 5%), lighten(#26a83d, 10%)));
+    }
+  }
+
+  // Disabled button style (grey).
+  .disabled a, a.disabled {
+    display: none;
+  }
+}
