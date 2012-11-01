@@ -384,6 +384,7 @@ a#ding-feedback-tab {
   font-size: 12px;
   font-weight: normal;
   margin-top: 8px;
+  margin-bottom: 5px;
   padding: 0 10px;
   text-transform: uppercase;
 }
@@ -399,7 +400,16 @@ a#ding-feedback-tab {
   list-style-image: url(../images/menu-collapsed.png);
   list-style-type: circle;
   margin: 0 0 0 1.2em;
-  padding: 0;
+  padding: 0 0 5px 0;
+}
+
+.pane-faq_question_list-panel_pane_2 .more-link {
+  font-size: 11px;
+  text-align: left;
+}
+
+.pane-faq_question_list-panel_pane_2 .view-footer {
+  margin: 0 0 10px 13px;
 }
 
 /** Staff profile page **/
