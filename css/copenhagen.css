@@ -475,6 +475,10 @@ a#ding-feedback-tab {
   margin: 0 0 0.5em 0;
 }
 
+/** Tema event list **/
+.view-tema-sites .node-teaser .info {
+  margin-left: 140px;
+}
 
 /** Highlight the active eresource category **/
 #eresource-page .tab-navigation a.active {
