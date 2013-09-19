@@ -485,3 +485,8 @@ a#ding-feedback-tab {
   font-weight: bold;
   text-shadow: 1px 1px 0px #ccc;
 }
+
+/** Tweak the width of blog teasers **/
+body.ding-blog .panel-pane .node-teaser .content {
+  width: 520px;
+}
