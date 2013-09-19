@@ -487,6 +487,6 @@ a#ding-feedback-tab {
 }
 
 /** Tweak the width of blog teasers **/
-body.ding-blog .panel-pane .node-teaser .content {
-  width: 520px;
+.ding-blog .pane-article_list-panel_pane_6 {
+  width: 720px;
 }
