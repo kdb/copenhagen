@@ -33,7 +33,7 @@ function copenhagen_ting_search_form($form) {
 
 
   $form['example_text']['#value'] = '<div class="example">' . theme('item_list', array(
-      l(t('Feltsøgning'), 'https://biblioteksbase.kk.dk/sites/XWW/pub/search.html?doaction=&data=advanced=true', array('absolute' => TRUE)),
+      l(t('Feltsøgning'), 'https://kbhweb.axielldrift.dk/sites/KBHXWW/ ', array('absolute' => TRUE)),
     )) . '</div>';
 
   return drupal_render($form);
